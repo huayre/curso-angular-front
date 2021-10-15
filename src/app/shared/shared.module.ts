@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
+
 import {CommonModule} from '@angular/common';
 
 import {SharedRoutingModule} from './shared-routing.module';
-
 import {SidebarComponent} from "./sidebar/sidebar.component";
 import {BreadcrumbsComponent} from "./breadcrumbs/breadcrumbs.component";
 import {HeaderComponent} from "./header/header.component";
@@ -17,7 +17,6 @@ import {HeaderComponent} from "./header/header.component";
   imports: [
     CommonModule,
     SharedRoutingModule,
-
   ],
   exports: [
     SidebarComponent,
