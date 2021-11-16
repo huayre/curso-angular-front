@@ -11,6 +11,8 @@ import {Grafica1Component} from "./grafica1/grafica1.component";
 import {PagesComponent} from "./pages.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import { AccountSetingComponent } from './account-seting/account-seting.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { AccountSetingComponent } from './account-seting/account-seting.componen
     PagesComponent,
     DashboardComponent,
     AccountSetingComponent,
+    PromisesComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
